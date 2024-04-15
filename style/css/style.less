@@ -1,0 +1,458 @@
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("font/ComicSansMS.ttf");
+}
+@BasicFont:"Comic Sans MS";
+@SkyBlue: #229ED9;
+p{
+    font-family: @BasicFont;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    header{
+        padding: 0 8.5%;
+        .navigateBlock{
+            margin-top: 1rem;
+            display: grid;
+            width: 100%;
+            grid-template-columns: 21.48% 51.41%; 
+            grid-template-rows: 1fr; 
+            column-gap: 27%; 
+            .logoBlock{
+                
+                height: 7.5rem;
+                display: flex;
+                .logo{
+                    width: 7.5rem;
+                    height: 7.5rem;
+                }
+                .logoNameBlock{
+                    .logoName{
+                        margin-top: 30%;
+                        margin-left: 1.5rem;
+                        display: flex;
+                        font-family: @BasicFont;
+                        font-weight: 600;
+                        font-size: 1.5rem;
+                        color: black;
+                        .logoBluePart{
+                            color: @SkyBlue;
+                        }
+                    }
+                }
+            }
+            .navBar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: 1.25rem;
+                font-weight: 600;
+                font-family: @BasicFont;
+                color: black;
+                margin-top: 5%;
+                .navItem{
+                    .navLink{
+                        display: flex;
+                        padding: .688rem 1.375rem;
+                        font-size: 1.25rem;
+                        text-decoration: none;
+                        color: black;
+                        text-transform: uppercase;
+                        animation-duration: 350ms;
+                    }
+                    .navLink:hover{
+                        color: aquamarine;
+                    }
+                    .presaleLink{
+                        background-color: #229ED9;
+                        color: white;
+                        border-radius: 5px;
+                        padding: .688rem 1.375rem;
+                    }
+                    .presaleLink:hover{
+                        color: #000000;
+                    }
+                    .aboutUs{
+                        padding: .688rem 1.2rem;
+                    }
+                }
+            }
+        }
+        .FrontBlock{
+            padding-bottom: 7.5rem;
+            .PresentBlock{
+                position: relative;
+                .BurjKhalifa{
+                    margin-left: 7%;
+                    position: absolute;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .DurovLie{
+                    position: absolute;
+                    width: 100%;
+                }
+            }
+            .SignBlock{
+                margin-left: 60%;
+                padding-top: 6.5rem;
+                .SignText{
+                    display: block;
+                    .SignItem{
+                        font-size: 3rem;
+                        font-weight: 600;
+                        color: #000000;
+                        font-family: @BasicFont;
+                        display: flex;
+                        .SignBlue{
+                            color: @SkyBlue;
+                            padding-right: .75rem;
+                        }
+                    }
+                }
+                .SocLink{
+                    padding-top: 4.375rem;
+                    display: flex;
+                    .SocItem{
+                        width: 3.125rem;
+                        height: 3.125rem;
+                    }
+                    .telegramLink{
+                        margin-left: 1.25rem;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .AboutUsBlock{
+            padding-top: 5.688rem;
+            width: 100%;
+            background-color: @SkyBlue;
+            .AboutUsText{
+                padding: 0 16.875%;
+                font-family: @BasicFont;
+                font-weight: 600;
+                color: #fff;
+                .AboutLabel{
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 2rem;
+                }
+                .AboutFullText{
+                    font-size: 1.688rem;
+                    margin-top: .375rem;
+                    b{
+                        color: #000000;
+                    }
+                }
+            }
+            .DurovLiedBlock{
+                margin-left: 8.47%;
+                display: flex;
+                .QuestionBlock{
+                    margin-top: 1rem;
+                    .QuestionText{
+                        color: #000000;
+                        font-weight: 600;
+                        font-size: 1.688rem;
+                        font-family: @BasicFont;
+                        background-color: #fff;
+                        padding: 1.375rem;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        .PresaleInfoBlock{
+            position: relative;
+            .ScreamDurov{
+                margin-top: -8rem;
+                position: absolute;
+                right: 0;
+                .messageScreamDurov{
+                    font-size: 1.5rem;
+                    font-family: @BasicFont;
+                    font-weight: 600;
+                    color: @SkyBlue;
+                    margin-left: 30%;
+                }
+            }
+            .InfoBlock{
+                padding: 0 16.875%;
+                padding-top: 15rem;
+                font-family: @BasicFont;
+                .PresaleLabelBlock{
+                    font-size: 4rem;
+                    font-weight: 600;
+                    color: #000000;
+                    text-align: center;
+                }
+                .AddresForCopy{
+                    margin-left: 30.15%;
+                    margin-top: 2.563rem;
+                    .AddressText{
+                        display: flex;
+                        background-color: @SkyBlue;
+                        border-radius: 1.25rem;
+                        padding: 1.25rem;
+                        font-size: 2rem;
+                        color: #fff;
+                        .textBtn{
+                            padding-top: .688rem
+                        }
+                        img{
+                            width: 3.125rem;
+                            height: 3.125rem;
+                            margin-left: 1.5rem;
+                        }
+                    }
+                }
+                .InfoTextBlock{
+                    
+                    .InfoBlockItem{
+                        display: block;
+                        font-family: @BasicFont;
+                        font-weight: 600;
+                        color: #000000;
+                        margin-top: 2rem;
+                        .InfoBlockNum{
+                            font-size: 4rem;
+                        }
+                        .InfoFullText{
+                            margin-left: 5%;
+                            font-size: 1.25rem;
+                            .InfoTextItem{
+                                display: block;
+                                .InfoTextItemDescrp{
+                                    button{
+                                        padding: 10px 14px;
+                                        border-radius: 5px;
+                                        background-color: @SkyBlue;
+                                        font-size: 1.25rem;
+                                        color: #fff;
+                                        img{
+                                            width: 1.25rem;
+                                            height: 1.25rem;
+                                        }
+                                    }
+                                }
+                                a{
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+                .InfoArrowGraph{
+                    .ArrowGraph{
+                        width: 4.188rem;
+                        margin-left: 48%;
+                        margin-top: 1rem;
+                    }
+                    .GraphBlock{
+                        margin-top: 3rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .RoadmapBlock{
+            margin-top: 12.563rem;
+            font-family: @BasicFont;
+            background-color: @SkyBlue;
+            width: 100%;
+            position: relative;
+            max-width: 100%;
+            .RoadmapName{
+                padding-top: 5.063rem;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 600;
+                color: black;
+            }
+            .RoadmapSchemaBlock{
+                margin-top: 1rem;
+                padding: 0 15.48%;
+                padding-bottom: 10rem;
+                display: grid; 
+                grid-template-columns: 38.3% 37.7%; 
+                grid-template-rows: 1fr 1fr; 
+                gap: 0% 24%; 
+                grid-template-areas: 
+                    ". ."
+                    ". .";
+                .RoadmapItem{
+                    font-family: @BasicFont;
+                    .RoadItemName{
+                        font-weight: 600;
+                        font-size: 2rem;
+                    }
+                    .RoadItemNum1{
+                        background-image: url(../asset/background/CloudNum1.png);
+                    }
+                    .RoadmapList{
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                        background-clip: content-box;
+                        width: 24rem;
+                        height: 16.25rem;
+                        .RoadmapListText{
+                            padding: 2rem 5rem;
+                            .RoadListItem{
+                                font-size: 1.25rem;
+                                font-weight: 400;
+                                img{
+                                    width: 30px;
+                                }
+                            }
+                        }
+                        
+                    }
+                    .RoadItemNum2{
+                        background-image: url(../asset/background/CloudNum2.png);
+                        .RoadmapListText{
+                            padding: 4rem;
+                        }
+                    }
+                    .RoadItemNum3{
+                        background-image: url(../asset/background/CloudNum3.png);
+                        .RoadmapListText{
+                            padding: 4rem;
+                            .RoadListItem{
+                                font-size: 2rem;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .RoadItemNum4{
+                        background-image: url(../asset/background/CloudNum4.png);
+                        .RoadmapListText{
+                            padding: 4rem;
+                            .RoadListItem{
+                                font-size: 2rem;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .RoadItemBlock2{
+                    margin-top: 8rem;
+                }
+                .RoadItemBlock3{
+                    margin-top: -6rem;
+                }
+                .RoadItemBlock4{
+                    margin-top: 5rem;
+                }
+            }
+            .BottomCharacter{
+                position: absolute;
+                bottom: 0;
+                left: 15.48%;
+            }
+            .PaperPlanes{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 20%;
+                left: 48%;
+                .PlaneItem{
+                    margin-top: 7.5rem;
+                }
+            }
+        }
+        .TokenomicsBlock{
+            margin-top: 7.875rem;
+            .TokenomicsLabel{
+                text-align: center;
+                font-family: @BasicFont;
+                font-size: 2rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            .TokenomicsContent{
+                padding: 0 15.2%;
+                margin-top: 4rem;
+                display: grid;
+                grid-template-columns: 24.35% 38.42%;
+                grid-column-gap: 37.23%;
+                .InfoBlockTokenomics{
+                    .ListPoints{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .InforItem{
+                            display: flex;
+                            font-family: @BasicFont;
+                            font-size: 2rem;
+                            font-weight: bold;
+                            padding-top: 1.25rem;
+                            .InforText{
+                                margin-top: -.75rem;
+                                margin-left: 1.313rem;
+                            }
+                            .pointColor{
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                border-radius: 100%;
+                                align-items: middle;
+                            }
+                            #colorPoint1{
+                                background-color: @SkyBlue;
+                            }
+                            #colorPoint2{
+                                background-color: #18FFBA;
+                            }
+                            #colorPoint3{
+                                background-color: #EDBF85;
+                            }
+                            #colorPoint4{
+                                background-color: #AA78A6;
+                            }
+                        }
+                    }
+                }
+                .GraphBlockTokenomics{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        padding: 0 16.87%;
+        margin-top: 5.75rem;
+        .LinkBlock{
+            display: flex;
+            .LinkItem{
+                width: 3.125rem;
+                height: 3.125rem;
+                img{
+                    // width: 100%;
+                    // height: 100%;
+                }
+            }
+        }
+        .footerInfo{
+            margin-top: 2rem;
+            font-family:'Inter',san-serif;
+            font-size: 1.25rem;
+            display: flex;
+            position: relative;
+            padding-bottom: 1rem;
+            .AddFooterInfo{
+                right: 0;
+                position: absolute;
+                text-decoration: underline;
+            }
+        }
+    }
+}

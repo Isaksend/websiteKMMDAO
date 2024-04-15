@@ -1,0 +1,430 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("font/ComicSansMS.ttf");
+}
+p {
+  font-family: "Comic Sans MS";
+}
+body {
+  width: 100%;
+  max-width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+body header {
+  padding: 0 8.5%;
+}
+body header .navigateBlock {
+  margin-top: 1rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 21.48% 51.41%;
+  grid-template-rows: 1fr;
+  column-gap: 27%;
+}
+body header .navigateBlock .logoBlock {
+  height: 7.5rem;
+  display: flex;
+}
+body header .navigateBlock .logoBlock .logo {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+body header .navigateBlock .logoBlock .logoNameBlock .logoName {
+  margin-top: 30%;
+  margin-left: 1.5rem;
+  display: flex;
+  font-family: "Comic Sans MS";
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+body header .navigateBlock .logoBlock .logoNameBlock .logoName .logoBluePart {
+  color: #229ed9;
+}
+body header .navigateBlock .navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: "Comic Sans MS";
+  color: black;
+  margin-top: 5%;
+}
+body header .navigateBlock .navBar .navItem .navLink {
+  display: flex;
+  padding: .688rem 1.375rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  animation-duration: 350ms;
+}
+body header .navigateBlock .navBar .navItem .navLink:hover {
+  color: aquamarine;
+}
+body header .navigateBlock .navBar .navItem .presaleLink {
+  background-color: #229ED9;
+  color: white;
+  border-radius: 5px;
+  padding: .688rem 1.375rem;
+}
+body header .navigateBlock .navBar .navItem .presaleLink:hover {
+  color: #000000;
+}
+body header .navigateBlock .navBar .navItem .aboutUs {
+  padding: .688rem 1.2rem;
+}
+body header .FrontBlock {
+  padding-bottom: 7.5rem;
+}
+body header .FrontBlock .PresentBlock {
+  position: relative;
+}
+body header .FrontBlock .PresentBlock .BurjKhalifa {
+  margin-left: 7%;
+  position: absolute;
+}
+body header .FrontBlock .PresentBlock .BurjKhalifa img {
+  width: 100%;
+}
+body header .FrontBlock .PresentBlock .DurovLie {
+  position: absolute;
+  width: 100%;
+}
+body header .FrontBlock .SignBlock {
+  margin-left: 60%;
+  padding-top: 6.5rem;
+}
+body header .FrontBlock .SignBlock .SignText {
+  display: block;
+}
+body header .FrontBlock .SignBlock .SignText .SignItem {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Comic Sans MS";
+  display: flex;
+}
+body header .FrontBlock .SignBlock .SignText .SignItem .SignBlue {
+  color: #229ed9;
+  padding-right: .75rem;
+}
+body header .FrontBlock .SignBlock .SocLink {
+  padding-top: 4.375rem;
+  display: flex;
+}
+body header .FrontBlock .SignBlock .SocLink .SocItem {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+body header .FrontBlock .SignBlock .SocLink .telegramLink {
+  margin-left: 1.25rem;
+}
+body main .AboutUsBlock {
+  padding-top: 5.688rem;
+  width: 100%;
+  background-color: #229ed9;
+}
+body main .AboutUsBlock .AboutUsText {
+  padding: 0 16.875%;
+  font-family: "Comic Sans MS";
+  font-weight: 600;
+  color: #fff;
+}
+body main .AboutUsBlock .AboutUsText .AboutLabel {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+body main .AboutUsBlock .AboutUsText .AboutFullText {
+  font-size: 1.688rem;
+  margin-top: .375rem;
+}
+body main .AboutUsBlock .AboutUsText .AboutFullText b {
+  color: #000000;
+}
+body main .AboutUsBlock .DurovLiedBlock {
+  margin-left: 8.47%;
+  display: flex;
+}
+body main .AboutUsBlock .DurovLiedBlock .QuestionBlock {
+  margin-top: 1rem;
+}
+body main .AboutUsBlock .DurovLiedBlock .QuestionBlock .QuestionText {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.688rem;
+  font-family: "Comic Sans MS";
+  background-color: #fff;
+  padding: 1.375rem;
+  border-radius: 10px;
+}
+body main .PresaleInfoBlock {
+  position: relative;
+}
+body main .PresaleInfoBlock .ScreamDurov {
+  margin-top: -8rem;
+  position: absolute;
+  right: 0;
+}
+body main .PresaleInfoBlock .ScreamDurov .messageScreamDurov {
+  font-size: 1.5rem;
+  font-family: "Comic Sans MS";
+  font-weight: 600;
+  color: #229ed9;
+  margin-left: 30%;
+}
+body main .PresaleInfoBlock .InfoBlock {
+  padding: 0 16.875%;
+  padding-top: 15rem;
+  font-family: "Comic Sans MS";
+}
+body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+  margin-left: 30.15%;
+  margin-top: 2.563rem;
+}
+body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText {
+  display: flex;
+  background-color: #229ed9;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  font-size: 2rem;
+  color: #fff;
+}
+body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText .textBtn {
+  padding-top: 0.688rem;
+}
+body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText img {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin-left: 1.5rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem {
+  display: block;
+  font-family: "Comic Sans MS";
+  font-weight: 600;
+  color: #000000;
+  margin-top: 2rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoBlockNum {
+  font-size: 4rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText {
+  margin-left: 5%;
+  font-size: 1.25rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem {
+  display: block;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem .InfoTextItemDescrp button {
+  padding: 10px 14px;
+  border-radius: 5px;
+  background-color: #229ed9;
+  font-size: 1.25rem;
+  color: #fff;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem .InfoTextItemDescrp button img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem a {
+  color: #000000;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoArrowGraph .ArrowGraph {
+  width: 4.188rem;
+  margin-left: 48%;
+  margin-top: 1rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoArrowGraph .GraphBlock {
+  margin-top: 3rem;
+  width: 100%;
+}
+body main .RoadmapBlock {
+  margin-top: 12.563rem;
+  font-family: "Comic Sans MS";
+  background-color: #229ed9;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+}
+body main .RoadmapBlock .RoadmapName {
+  padding-top: 5.063rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock {
+  margin-top: 1rem;
+  padding: 0 15.48%;
+  padding-bottom: 10rem;
+  display: grid;
+  grid-template-columns: 38.3% 37.7%;
+  grid-template-rows: 1fr 1fr;
+  gap: 0% 24%;
+  grid-template-areas: ". ." ". .";
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem {
+  font-family: "Comic Sans MS";
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemName {
+  font-weight: 600;
+  font-size: 2rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum1 {
+  background-image: url(../asset/background/CloudNum1.png);
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  width: 24rem;
+  height: 16.25rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText {
+  padding: 2rem 5rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText .RoadListItem {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText .RoadListItem img {
+  width: 30px;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum2 {
+  background-image: url(../asset/background/CloudNum2.png);
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum2 .RoadmapListText {
+  padding: 4rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum3 {
+  background-image: url(../asset/background/CloudNum3.png);
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum3 .RoadmapListText {
+  padding: 4rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum3 .RoadmapListText .RoadListItem {
+  font-size: 2rem;
+  text-align: center;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum4 {
+  background-image: url(../asset/background/CloudNum4.png);
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum4 .RoadmapListText {
+  padding: 4rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum4 .RoadmapListText .RoadListItem {
+  font-size: 2rem;
+  text-align: center;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock2 {
+  margin-top: 8rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock3 {
+  margin-top: -6rem;
+}
+body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock4 {
+  margin-top: 5rem;
+}
+body main .RoadmapBlock .BottomCharacter {
+  position: absolute;
+  bottom: 0;
+  left: 15.48%;
+}
+body main .RoadmapBlock .PaperPlanes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 48%;
+}
+body main .RoadmapBlock .PaperPlanes .PlaneItem {
+  margin-top: 7.5rem;
+}
+body main .TokenomicsBlock {
+  margin-top: 7.875rem;
+}
+body main .TokenomicsBlock .TokenomicsLabel {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+body main .TokenomicsBlock .TokenomicsContent {
+  padding: 0 15.2%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 24.35% 38.42%;
+  grid-column-gap: 37.23%;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem {
+  display: flex;
+  font-family: "Comic Sans MS";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 1.25rem;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem .InforText {
+  margin-top: -0.75rem;
+  margin-left: 1.313rem;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem .pointColor {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 100%;
+  align-items: middle;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem #colorPoint1 {
+  background-color: #229ed9;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem #colorPoint2 {
+  background-color: #18FFBA;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem #colorPoint3 {
+  background-color: #EDBF85;
+}
+body main .TokenomicsBlock .TokenomicsContent .InfoBlockTokenomics .ListPoints .InforItem #colorPoint4 {
+  background-color: #AA78A6;
+}
+body main .TokenomicsBlock .TokenomicsContent .GraphBlockTokenomics img {
+  width: 100%;
+}
+body footer {
+  padding: 0 16.87%;
+  margin-top: 5.75rem;
+}
+body footer .LinkBlock {
+  display: flex;
+}
+body footer .LinkBlock .LinkItem {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+body footer .footerInfo {
+  margin-top: 2rem;
+  font-family: 'Inter', san-serif;
+  font-size: 1.25rem;
+  display: flex;
+  position: relative;
+  padding-bottom: 1rem;
+}
+body footer .footerInfo .AddFooterInfo {
+  right: 0;
+  position: absolute;
+  text-decoration: underline;
+}
