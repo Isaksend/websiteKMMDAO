@@ -89,6 +89,7 @@ body header .FrontBlock {
 }
 body header .FrontBlock .PresentBlock {
   position: relative;
+  z-index: -1;
 }
 body header .FrontBlock .PresentBlock .BurjKhalifa {
   margin-left: 7%;
