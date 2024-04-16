@@ -104,6 +104,7 @@ body header .FrontBlock .PresentBlock .DurovLie {
 body header .FrontBlock .SignBlock {
   margin-left: 60%;
   padding-top: 6.5rem;
+  z-index: 999;
 }
 body header .FrontBlock .SignBlock .SignText {
   display: block;
