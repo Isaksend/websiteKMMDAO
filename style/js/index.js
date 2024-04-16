@@ -27,9 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (copyButton) {
         copyButton.addEventListener('click', function() {
         alert("Address Copied!")
-        setTimeout(function() {
-            copiedMessage.classList.remove('show');
-        }, 2000); // Message will disappear after 2 seconds
         });
     } else {
         console.error('Button with id "copyButton" or message with id "copiedMessage" was not found.');
