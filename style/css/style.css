@@ -343,6 +343,7 @@ body main .RoadmapBlock .BottomCharacter {
   position: absolute;
   bottom: 0;
   left: 15.48%;
+  margin-bottom: -5px;
 }
 body main .RoadmapBlock .PaperPlanes {
   display: flex;
@@ -787,5 +788,38 @@ body footer .footerInfo .AddFooterInfo {
   body main .RoadmapBlock .RoadmapSchemaBlock {
     display: flex;
     flex-direction: column;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock2,
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock3,
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock4 {
+    margin-top: 3rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock2 {
+    margin-left: 30%;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadItemBlock4 {
+    margin-left: 32%;
+  }
+  body main .RoadmapBlock .PaperPlanes .PlaneNum1 {
+    margin-top: 7rem;
+  }
+  body main .RoadmapBlock .PaperPlanes .PlaneNum2 {
+    margin-top: 16.5rem;
+  }
+  body main .RoadmapBlock .PaperPlanes .PlaneNum3 {
+    margin-top: 15.5rem;
+  }
+  body main .RoadmapBlock .BottomCharacter img {
+    width: 50%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body footer .footerInfo {
+    display: block;
+  }
+  body footer .footerInfo .AddFooterInfo {
+    margin-top: 1rem;
   }
 }
