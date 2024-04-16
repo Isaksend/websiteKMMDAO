@@ -14,3 +14,9 @@ function copyTonAddress(){
         console.error('Ошибка при копировании: ', error);
     });
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("burgerMenu").addEventListener("click", function(){
+        document.querySelector("header").classList.toggle("OpenMenu");
+    })
+})

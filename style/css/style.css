@@ -16,7 +16,7 @@ body header {
   padding: 0 8.5%;
 }
 body header .navigateBlock {
-  margin-top: 1rem;
+  padding-top: 1rem;
   display: grid;
   width: 100%;
   grid-template-columns: 21.48% 51.41%;
@@ -30,6 +30,7 @@ body header .navigateBlock .logoBlock {
 body header .navigateBlock .logoBlock .logo {
   width: 7.5rem;
   height: 7.5rem;
+  border-radius: 100%;
 }
 body header .navigateBlock .logoBlock .logoNameBlock .logoName {
   margin-top: 30%;
@@ -76,6 +77,9 @@ body header .navigateBlock .navBar .navItem .presaleLink:hover {
 }
 body header .navigateBlock .navBar .navItem .aboutUs {
   padding: .688rem 1.2rem;
+}
+body header .navigateBlock #burgerMenu {
+  display: none;
 }
 body header .FrontBlock {
   padding-bottom: 7.5rem;
@@ -427,4 +431,361 @@ body footer .footerInfo .AddFooterInfo {
   right: 0;
   position: absolute;
   text-decoration: underline;
+}
+@media screen and (min-width: 2559px) {
+  body header {
+    padding: 0 20%;
+  }
+  body main .AboutUsBlock .AboutUsText {
+    padding: 0 20%;
+  }
+  body main .AboutUsBlock .AboutUsText .AboutFullText {
+    margin-top: 2.5rem;
+  }
+  body main .AboutUsBlock .DurovLiedBlock {
+    margin-left: 20%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov {
+    right: 20rem;
+    margin-top: -12rem;
+  }
+  body main .PresaleInfoBlock .ScreamDurov img {
+    width: 135%;
+  }
+  body main .PresaleInfoBlock .InfoBlock {
+    padding: 15rem 20%;
+    padding-bottom: 5rem;
+  }
+  body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+    margin-left: 38%;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock {
+    padding: 2rem 30% 10rem 30%;
+  }
+  body main .RoadmapBlock .BottomCharacter {
+    left: 10%;
+  }
+  body main .RoadmapBlock .BottomCharacter img {
+    width: 180%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    padding: 0 20%;
+  }
+  body footer {
+    padding: 0 20%;
+  }
+}
+@media screen and (max-width: 1921px) {
+  body header {
+    padding: 0 18%;
+  }
+  body main .AboutUsBlock .AboutUsText {
+    padding: 0 16%;
+  }
+  body main .AboutUsBlock .DurovLiedBlock {
+    margin-left: 16%;
+  }
+  body main .PresaleInfoBlock .InfoBlock {
+    padding: 15rem 18% 0 18%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+    margin-left: 35%;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock {
+    padding: 0 20%;
+  }
+  body main .RoadmapBlock .BottomCharacter {
+    left: 34%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    padding: 0 17%;
+  }
+  body footer {
+    padding: 0 17%;
+  }
+}
+@media screen and (max-width: 1681px) {
+  body header {
+    padding: 0 14%;
+  }
+}
+@media screen and (max-width: 1601px) {
+  body header {
+    padding: 0 12%;
+  }
+  body main .AboutUsBlock .AboutUsText {
+    padding: 0 12%;
+  }
+}
+@media screen and (max-width: 1537px) {
+  body header {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 1441px) {
+  body header .navigateBlock {
+    grid-template-columns: 21.48% 54.41%;
+    column-gap: 24%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    grid-template-columns: 26.35% 38.42%;
+    grid-column-gap: 35.23%;
+  }
+}
+@media screen and (max-width: 1367px) {
+  body header .navigateBlock {
+    grid-template-columns: 21.48% 56.41%;
+    column-gap: 22%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+    margin-left: 28%;
+  }
+  body main .RoadmapBlock .BottomCharacter {
+    left: 2%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    grid-template-columns: 29.35% 38.42%;
+    grid-column-gap: 32.23%;
+  }
+}
+@media screen and (max-width: 1281px) {
+  body header .navigateBlock {
+    grid-template-columns: 21.48% 60.41%;
+    column-gap: 18%;
+  }
+  body header .navigateBlock .navBar .navItem {
+    font-size: 1rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock {
+    padding: 0 15%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    padding: 0 15%;
+  }
+  body footer {
+    padding: 0 15%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  body header {
+    padding: 0 5%;
+  }
+  body header .navigateBlock .navBar .navItem .aboutUs {
+    padding: .688rem 1rem;
+  }
+  body header .navigateBlock .navBar .navItem .navLink {
+    font-size: 1rem;
+  }
+  body header .FrontBlock .SignBlock .SignText .SignItem {
+    font-size: 2.5rem;
+  }
+  body main .AboutUsBlock .DurovLiedBlock {
+    margin-left: 2%;
+  }
+  body main .AboutUsBlock .DurovLiedBlock .DurovLieImg img {
+    width: 60%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov {
+    margin-top: -6rem;
+    margin-left: 60%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov img {
+    width: 70%;
+  }
+  body main .PresaleInfoBlock .InfoBlock {
+    padding: 15rem 12% 0 12%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock {
+    font-size: 3.5rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList {
+    width: 17rem;
+    height: 13.25rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText {
+    padding: 3rem 2rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText .RoadListItem {
+    font-size: 1rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadmapList .RoadmapListText .RoadListItem img {
+    width: 15px;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum3 .RoadmapListText .RoadListItem,
+  body main .RoadmapBlock .RoadmapSchemaBlock .RoadmapItem .RoadItemNum4 .RoadmapListText .RoadListItem {
+    font-size: 1.5rem;
+  }
+  body main .RoadmapBlock .BottomCharacter img {
+    width: 70%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    grid-template-columns: 39.35% 38.42%;
+    grid-column-gap: 22.23%;
+  }
+  body footer .footerInfo {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  body header .navigateBlock {
+    position: relative;
+  }
+  body header .navigateBlock .navBar {
+    display: none;
+  }
+  body header .navigateBlock .BtnBlock {
+    z-index: 9999;
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+  }
+  body header .navigateBlock .BtnBlock #burgerMenu {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0);
+  }
+  body header .navigateBlock .BtnBlock #burgerMenu span {
+    width: 50px;
+    height: 3px;
+    left: 0;
+    border-radius: 5px;
+    background-color: #229ed9;
+    position: absolute;
+    transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
+  }
+  body header .navigateBlock .BtnBlock #burgerMenu span:nth-child(1) {
+    transform: translateY(-15px);
+  }
+  body header .navigateBlock .BtnBlock #burgerMenu span:nth-child(3) {
+    transform: translateY(15px);
+  }
+  body header .navigateBlock .MenuBarMob {
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    position: absolute;
+    right: -5.4%;
+    top: -750px;
+    padding: 50px 10px;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 350px;
+    height: 600px;
+    transition: transform .5s;
+  }
+  body header .navigateBlock .MenuBarMob .navItem {
+    width: 100%;
+  }
+  body header .FrontBlock .PresentBlock {
+    z-index: -1;
+  }
+  body header .FrontBlock .PresentBlock .BurjKhalifa {
+    margin-left: -13%;
+  }
+  body header .FrontBlock .SignBlock {
+    z-index: 999;
+  }
+  body header.OpenMenu .MenuBarMob {
+    transform: translateY(750px);
+  }
+  body header.OpenMenu .navigateBlock .BtnBlock #burgerMenu span:nth-child(2) {
+    opacity: 0;
+  }
+  body header.OpenMenu .navigateBlock .BtnBlock #burgerMenu span:nth-child(1) {
+    transform: translateY(0) rotate(-45deg);
+  }
+  body header.OpenMenu .navigateBlock .BtnBlock #burgerMenu span:nth-child(3) {
+    transform: translateY(0) rotate(45deg);
+  }
+  body header.OpenMenu .navigateBlock .BtnBlock #burgerMenu span {
+    background-color: #fff;
+  }
+  body main .AboutUsBlock .AboutUsText {
+    padding: 0 5%;
+  }
+  body main .AboutUsBlock .DurovLiedBlock {
+    flex-direction: column-reverse;
+  }
+  body main .AboutUsBlock .DurovLiedBlock .QuestionBlock .QuestionText {
+    width: 70%;
+    text-align: center;
+    margin-left: 12%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov img {
+    width: 100%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov .messageScreamDurov {
+    margin-left: 20%;
+  }
+  body main .PresaleInfoBlock .InfoBlock {
+    padding: 20rem 5% 0 5%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+    margin-left: 23%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock {
+    font-size: 2.5rem;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock {
+    padding: 0 5%;
+  }
+  body main .TokenomicsBlock .TokenomicsContent {
+    padding: 0 5%;
+  }
+  body footer {
+    padding: 0 5%;
+  }
+}
+@media screen and (max-width: 431px) {
+  body header .FrontBlock {
+    position: relative;
+    padding-bottom: 20rem;
+  }
+  body header .FrontBlock .PresentBlock .DurovLie {
+    margin-top: 7rem;
+  }
+  body header .FrontBlock .PresentBlock .DurovLie img {
+    width: 100%;
+  }
+  body header .FrontBlock .SignBlock {
+    margin-left: 5%;
+    padding-top: 2.5rem;
+  }
+  body header .FrontBlock .SignBlock .SignText .SignItem {
+    font-size: 1.5rem;
+  }
+  body header .FrontBlock .SignBlock .SocLink {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 11rem;
+  }
+  body main .AboutUsBlock .DurovLiedBlock .QuestionBlock .QuestionText {
+    width: 80%;
+    margin-left: 4%;
+    font-size: 1.25rem;
+  }
+  body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock {
+    font-size: 2rem;
+  }
+  body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
+    margin-left: 0%;
+  }
+  body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText {
+    font-size: .75rem;
+  }
+  body main .PresaleInfoBlock .ScreamDurov {
+    margin-top: 0;
+    margin-left: 40%;
+  }
+  body main .PresaleInfoBlock .ScreamDurov .messageScreamDurov {
+    margin-left: 5%;
+  }
+  body main .RoadmapBlock .RoadmapSchemaBlock {
+    display: flex;
+    flex-direction: column;
+  }
 }

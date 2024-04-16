@@ -17,19 +17,19 @@ body{
     header{
         padding: 0 8.5%;
         .navigateBlock{
-            margin-top: 1rem;
+            padding-top: 1rem;
             display: grid;
             width: 100%;
             grid-template-columns: 21.48% 51.41%; 
             grid-template-rows: 1fr; 
             column-gap: 27%; 
             .logoBlock{
-                
                 height: 7.5rem;
                 display: flex;
                 .logo{
                     width: 7.5rem;
                     height: 7.5rem;
+                    border-radius: 100%;
                 }
                 .logoNameBlock{
                     .logoName{
@@ -81,6 +81,9 @@ body{
                         padding: .688rem 1.2rem;
                     }
                 }
+            }
+            #burgerMenu{
+                display: none;
             }
         }
         .FrontBlock{
@@ -435,10 +438,6 @@ body{
             .LinkItem{
                 width: 3.125rem;
                 height: 3.125rem;
-                img{
-                    // width: 100%;
-                    // height: 100%;
-                }
             }
         }
         .footerInfo{
@@ -452,6 +451,540 @@ body{
                 right: 0;
                 position: absolute;
                 text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 2559px){
+    body{
+        header{
+            padding: 0 20%;
+        }
+        main{
+            .AboutUsBlock{
+                .AboutUsText{
+                    padding: 0 20%;
+                    .AboutFullText{
+                        margin-top: 2.5rem;
+                    }
+                }
+                .DurovLiedBlock{
+                    margin-left: 20%;
+                }
+            }
+            .PresaleInfoBlock{
+                .ScreamDurov{
+                    right: 20rem;
+                    margin-top: -12rem;
+                    img{
+                        width: 135%;
+                    }
+                }
+                .InfoBlock{
+                    padding: 15rem 20%;
+                    padding-bottom: 5rem;
+                    .AddresForCopy{
+                        margin-left: 38%;
+                    }
+                }
+            }
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    padding: 2rem 30% 10rem 30%;
+                }
+                .BottomCharacter{
+                    left: 10%;
+                    img{
+                        width: 180%;
+                    }
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    padding: 0 20%;
+                }
+            }
+        }
+        footer{
+            padding: 0 20%;
+        }
+    }
+}
+
+@media screen and(max-width: 1921px){
+    body{
+        header{
+            padding: 0 18%;
+        }
+        main{
+            .AboutUsBlock{
+                .AboutUsText{
+                    padding: 0 16%;
+                }
+                .DurovLiedBlock{
+                    margin-left: 16%;
+                }
+            }
+            .PresaleInfoBlock{
+                .InfoBlock{
+                    padding: 15rem 18% 0 18%;
+                    .AddresForCopy{
+                        margin-left: 35%;
+                    }
+                }
+            }
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    padding: 0 20%;
+                }
+                .BottomCharacter{
+                    left: 34%;
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    padding: 0 17%;
+                }
+            }
+        }
+        footer{
+            padding: 0 17%;
+        }
+    }
+}
+
+@media screen and(max-width: 1681px){
+    body{
+        header{
+            padding: 0 14%;
+        }
+    }
+}
+
+@media screen and(max-width: 1601px){
+    body{
+        header{
+            padding: 0 12%;
+        }
+        main{
+            .AboutUsBlock{
+                .AboutUsText{
+                    padding: 0 12%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1537px){
+    body{
+        header{
+            padding: 0 10%;
+        }
+    }
+}
+
+@media screen and(max-width: 1441px){
+    body{
+        header{
+            .navigateBlock{
+                grid-template-columns: 21.48% 54.41%;
+                column-gap: 24%;
+            }
+        }
+        main{
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    grid-template-columns: 26.35% 38.42%;
+                    grid-column-gap: 35.23%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1367px){
+    body{
+        header{
+            .navigateBlock{
+                grid-template-columns: 21.48% 56.41%;
+                column-gap: 22%;
+            }
+        }
+        main{
+            .PresaleInfoBlock{
+                .InfoBlock{
+                    .AddresForCopy{
+                        margin-left: 28%;
+                    }
+                }
+            }
+            .RoadmapBlock{
+                .BottomCharacter{
+                    left: 2%;
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent {
+                    grid-template-columns: 29.35% 38.42%;
+                    grid-column-gap: 32.23%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1281px){
+    body{
+        header{
+            .navigateBlock{
+                grid-template-columns: 21.48% 60.41%;
+                column-gap: 18%;
+                .navBar{
+                    .navItem{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        main{
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    padding: 0 15%;
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    padding: 0 15%;
+                }
+            }
+        }
+        footer{
+            padding: 0 15%;
+        }
+    }
+}
+
+@media screen and(max-width: 1025px){
+    body{
+        header{
+            padding: 0 5%;
+            .navigateBlock{
+                .navBar{
+                    .navItem{
+                        .aboutUs{
+                            padding: .688rem 1rem;
+                        }
+                        .navLink{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            .FrontBlock{
+                .SignBlock{
+                    .SignText{
+                        .SignItem{
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            .AboutUsBlock{
+                .DurovLiedBlock{
+                    margin-left: 2%;
+                    .DurovLieImg{
+                        img{
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+            .PresaleInfoBlock{
+                .ScreamDurov{
+                    img{
+                        width: 70%;
+                    }
+                    margin-top: -6rem;
+                    margin-left: 60%;
+                }
+                .InfoBlock {
+                    padding: 15rem 12% 0 12%;
+                    .PresaleLabelBlock{
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    .RoadmapItem{
+                        .RoadmapList{
+                            width: 17rem;
+                            height: 13.25rem;
+                            .RoadmapListText{
+                                padding: 3rem 2rem;
+                                .RoadListItem{
+                                    font-size: 1rem;
+                                    img{
+                                        width: 15px;
+                                    }
+                                }
+                            }
+                        }
+                        .RoadItemNum3,.RoadItemNum4{
+                            .RoadmapListText{
+                                .RoadListItem{
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .BottomCharacter{
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    grid-template-columns: 39.35% 38.42%;
+                    grid-column-gap: 22.23%;
+                }
+            }
+        }
+        footer{
+            .footerInfo{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 769px){
+    body{
+        header{
+            .navigateBlock{
+                position: relative;
+                .navBar{
+                    display: none;
+                }
+                .BtnBlock{
+                    z-index: 9999;
+                    position: absolute;
+                    right: 0;
+                    top: 1.25rem;
+                    #burgerMenu{
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        position: relative;
+                        border: none;
+                        border-radius: 5px;
+                        background: rgba(0, 0, 0, 0);
+                        span{
+                            width: 50px;
+                            height: 3px;
+                            left: 0;
+                            border-radius: 5px;
+                            background-color: @SkyBlue;
+                            position: absolute;
+                            transition: transform .5s, opacity .5s, background-color .5s;
+                        }
+                        span:nth-child(1){
+                            transform: translateY(-15px);
+                        }
+                        span:nth-child(3){
+                            transform: translateY(15px);
+                        }
+
+                    }
+                }
+                .MenuBarMob{
+                    z-index: 999;
+                    background: rgba(0, 0, 0, 0.5);
+                    display: block;
+                    position: absolute;
+                    right: -5.4%;
+                    top: -750px;
+                    padding: 50px 10px;
+                    border-radius: 5px;
+                    margin-top: 0;
+                    width: 350px;
+                    height: 600px;
+                    transition: transform .5s;
+                    .navItem{
+                        width: 100%;
+                    }
+                }
+            }
+            .FrontBlock{
+                .PresentBlock{
+                    z-index: -1;
+                    .BurjKhalifa{
+                        margin-left: -13%;
+                    }
+                }
+                .SignBlock{
+                    z-index: 999;
+                }
+            }
+        }
+        header.OpenMenu{
+            .MenuBarMob{
+                transform: translateY(750px);
+            }
+            .navigateBlock{
+                .BtnBlock{
+                    #burgerMenu{
+                        span:nth-child(2){
+                            opacity: 0;
+                        }
+                        span:nth-child(1){
+                            transform: translateY(0) rotate(-45deg);
+                        }
+                        span:nth-child(3){
+                            transform: translateY(0) rotate(45deg);
+                        }
+                        span{
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+            
+        }
+        main{
+            .AboutUsBlock{
+                .AboutUsText{
+                    padding: 0 5%;
+                }
+                .DurovLiedBlock{
+                    flex-direction: column-reverse;
+                    .QuestionBlock{
+                        .QuestionText{
+                            width: 70%;
+                            text-align: center;
+                            margin-left: 12%;
+                        }
+                    }
+                }
+            }
+            .PresaleInfoBlock{
+                .ScreamDurov{
+                    img{
+                        width: 100%;
+                    }
+                    .messageScreamDurov{
+                        margin-left: 20%;
+                    }
+                }
+                .InfoBlock{
+                    padding: 20rem 5% 0 5%;
+                    .AddresForCopy{
+                        margin-left: 23%;
+                    }
+                    .PresaleLabelBlock{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    padding: 0 5%;
+                }
+            }
+            .TokenomicsBlock{
+                .TokenomicsContent{
+                    padding: 0 5%;
+                }
+            }
+        }
+        footer{
+            padding: 0 5%;
+        }
+    }
+}
+
+@media screen and(max-width: 431px){
+    // *{
+    //     border: red 1px solid;
+    // }
+    body{
+        header{
+            .FrontBlock{
+                position: relative;
+                padding-bottom: 20rem;
+                .PresentBlock{
+                    .DurovLie{
+                        margin-top: 7rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .SignBlock{
+                    margin-left: 5%;
+                    padding-top: 2.5rem;
+                    .SignText{
+                        .SignItem{
+                            font-size: 1.5rem;
+                        }
+                    }
+                    .SocLink{
+                        position: absolute;
+                        margin-left: 60%;
+                        margin-top: 11rem;
+                    }
+                }
+            }
+        }
+        main{
+            .AboutUsBlock{
+                .DurovLiedBlock{
+                    .QuestionBlock{
+                        .QuestionText{
+                            width: 80%;
+                            margin-left: 4%;
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+            .PresaleInfoBlock{
+                .InfoBlock{
+                    .PresaleLabelBlock{
+                        font-size: 2rem;
+                    }
+                    .AddresForCopy{
+                        margin-left: 0%;
+                    }
+                    .InfoTextBlock{
+                        .InfoBlockItem{
+                            .InfoFullText{
+                                font-size: .75rem;
+                            }
+                        }
+                    }
+                }
+                .ScreamDurov{
+                    margin-top: 0;
+                    margin-left: 40%;
+                    .messageScreamDurov{
+                        margin-left: 5%;
+                    }
+                }
+            }
+
+
+            .RoadmapBlock{
+                .RoadmapSchemaBlock{
+                    display: flex;
+                    flex-direction: column;
+                }
             }
         }
     }
