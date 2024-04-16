@@ -8,6 +8,10 @@ p{
     font-family: @BasicFont;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     max-width: 100%;
@@ -99,7 +103,7 @@ body{
                 }
                 .DurovLie{
                     position: absolute;
-                    width: 100%;
+                    width: 90%;
                 }
             }
             .SignBlock{
@@ -196,10 +200,15 @@ body{
                     font-weight: 600;
                     color: #000000;
                     text-align: center;
+                    b{
+                        color: @SkyBlue;
+                        margin-top: 5rem;
+                    }
                 }
                 .AddresForCopy{
                     margin-left: 30.15%;
                     margin-top: 2.563rem;
+                    position: relative;
                     .AddressText{
                         display: flex;
                         background-color: @SkyBlue;
@@ -207,6 +216,7 @@ body{
                         padding: 1.25rem;
                         font-size: 2rem;
                         color: #fff;
+                        overflow: hidden;
                         .textBtn{
                             padding-top: .688rem
                         }
@@ -216,6 +226,7 @@ body{
                             margin-left: 1.5rem;
                         }
                     }
+                    
                 }
                 .InfoTextBlock{
                     
@@ -251,6 +262,14 @@ body{
                                 a{
                                     color: #000000;
                                 }
+                            }
+                            .LabelInfoText{
+                                display: block;
+                                font-size: 1.25rem;
+                            }
+                            ul{
+                                display: flex;
+                                flex-direction: column;
                             }
                         }
                     }

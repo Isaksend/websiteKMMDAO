@@ -5,6 +5,9 @@
 p {
   font-family: "Comic Sans MS";
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100%;
   max-width: 100%;
@@ -96,7 +99,7 @@ body header .FrontBlock .PresentBlock .BurjKhalifa img {
 }
 body header .FrontBlock .PresentBlock .DurovLie {
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 body header .FrontBlock .SignBlock {
   margin-left: 60%;
@@ -192,9 +195,14 @@ body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock {
   color: #000000;
   text-align: center;
 }
+body main .PresaleInfoBlock .InfoBlock .PresaleLabelBlock b {
+  color: #229ed9;
+  margin-top: 5rem;
+}
 body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
   margin-left: 30.15%;
   margin-top: 2.563rem;
+  position: relative;
 }
 body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText {
   display: flex;
@@ -203,6 +211,7 @@ body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText {
   padding: 1.25rem;
   font-size: 2rem;
   color: #fff;
+  overflow: hidden;
 }
 body main .PresaleInfoBlock .InfoBlock .AddresForCopy .AddressText .textBtn {
   padding-top: 0.688rem;
@@ -244,6 +253,14 @@ body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullTe
 }
 body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem a {
   color: #000000;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .LabelInfoText {
+  display: block;
+  font-size: 1.25rem;
+}
+body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText ul {
+  display: flex;
+  flex-direction: column;
 }
 body main .PresaleInfoBlock .InfoBlock .InfoArrowGraph .ArrowGraph {
   width: 4.188rem;
