@@ -235,6 +235,7 @@ body{
                                 display: block;
                                 .InfoTextItemDescrp{
                                     button{
+                                        display: flex;
                                         padding: 10px 14px;
                                         border-radius: 5px;
                                         background-color: @SkyBlue;
@@ -243,6 +244,7 @@ body{
                                         img{
                                             width: 1.25rem;
                                             height: 1.25rem;
+                                            margin-left: .3rem;
                                         }
                                     }
                                 }
@@ -819,6 +821,13 @@ body{
                     transition: transform .5s;
                     .navItem{
                         width: 100%;
+                        .navLink{
+                            color: #fff;
+                            transition: 300ms;
+                        }
+                        .navLink:hover{
+                            color: #229ED9;
+                        }
                     }
                 }
             }
@@ -884,7 +893,7 @@ body{
                     }
                 }
                 .InfoBlock{
-                    padding: 20rem 5% 0 5%;
+                    padding: 22rem 5% 0 5%;
                     .AddresForCopy{
                         margin-left: 23%;
                     }
@@ -967,6 +976,14 @@ body{
                         .InfoBlockItem{
                             .InfoFullText{
                                 font-size: .75rem;
+                                .InfoTextItem{
+                                    .InfoTextItemDescrp{
+                                        button{
+                                            padding: 5px 7px;
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -982,6 +999,7 @@ body{
 
 
             .RoadmapBlock{
+                padding-bottom: 10rem;
                 .RoadmapSchemaBlock{
                     display: flex;
                     flex-direction: column;
@@ -1008,7 +1026,7 @@ body{
                 }
                 .BottomCharacter{
                     img{
-                        width: 50%;
+                        width: 75%;
                     }
                 }
             }

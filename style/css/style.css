@@ -230,6 +230,7 @@ body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullTe
   display: block;
 }
 body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem .InfoTextItemDescrp button {
+  display: flex;
   padding: 10px 14px;
   border-radius: 5px;
   background-color: #229ed9;
@@ -239,6 +240,7 @@ body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullTe
 body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem .InfoTextItemDescrp button img {
   width: 1.25rem;
   height: 1.25rem;
+  margin-left: .3rem;
 }
 body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem a {
   color: #000000;
@@ -681,6 +683,13 @@ body footer .footerInfo .AddFooterInfo {
   body header .navigateBlock .MenuBarMob .navItem {
     width: 100%;
   }
+  body header .navigateBlock .MenuBarMob .navItem .navLink {
+    color: #fff;
+    transition: 300ms;
+  }
+  body header .navigateBlock .MenuBarMob .navItem .navLink:hover {
+    color: #229ED9;
+  }
   body header .FrontBlock .PresentBlock {
     z-index: -1;
   }
@@ -723,7 +732,7 @@ body footer .footerInfo .AddFooterInfo {
     margin-left: 20%;
   }
   body main .PresaleInfoBlock .InfoBlock {
-    padding: 20rem 5% 0 5%;
+    padding: 22rem 5% 0 5%;
   }
   body main .PresaleInfoBlock .InfoBlock .AddresForCopy {
     margin-left: 23%;
@@ -778,12 +787,19 @@ body footer .footerInfo .AddFooterInfo {
   body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText {
     font-size: .75rem;
   }
+  body main .PresaleInfoBlock .InfoBlock .InfoTextBlock .InfoBlockItem .InfoFullText .InfoTextItem .InfoTextItemDescrp button {
+    padding: 5px 7px;
+    font-size: 1rem;
+  }
   body main .PresaleInfoBlock .ScreamDurov {
     margin-top: 0;
     margin-left: 40%;
   }
   body main .PresaleInfoBlock .ScreamDurov .messageScreamDurov {
     margin-left: 5%;
+  }
+  body main .RoadmapBlock {
+    padding-bottom: 10rem;
   }
   body main .RoadmapBlock .RoadmapSchemaBlock {
     display: flex;
@@ -810,7 +826,7 @@ body footer .footerInfo .AddFooterInfo {
     margin-top: 15.5rem;
   }
   body main .RoadmapBlock .BottomCharacter img {
-    width: 50%;
+    width: 75%;
   }
   body main .TokenomicsBlock .TokenomicsContent {
     display: flex;
